@@ -60,6 +60,6 @@ public class UserService {
             user.setName(name);
         }
 
-//        userRepository.save(user);
+      userRepository.save(user);
     }
 }
