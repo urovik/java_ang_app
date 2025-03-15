@@ -23,7 +23,7 @@ public class DemoApplication {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**") // Разрешает CORS для всех эндпоинтов
-                        .allowedOrigins("http://localhost:4200") // Разрешает любые источники
+                        .allowedOrigins("http://localhost:4200","http://194.87.56.253:4200") // Разрешает любые источники
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS") // Разрешает определенные HTTP методы
                         .allowCredentials(true);
             }
